@@ -1,7 +1,7 @@
 //Package preprocessing gives simple text preprocessing operation.
 package preprocessing
 
-//Preprocessing the text
+//Preprocessing function returns a preprocessed text
 func Preprocessing(xs []string) []string {
 	data := xs
 
