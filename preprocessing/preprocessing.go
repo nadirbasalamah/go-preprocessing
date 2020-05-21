@@ -20,6 +20,7 @@ func Preprocessing(xs []string) []string {
 	return data
 }
 
+//isSymbolExists is a utility function for checking symbol that exists in a string
 func isSymbolExists(s string) bool {
 	var result bool
 	symbols := []string{"`", "~", ",", ".", "?", "!", "/", ";", "&", "'"}
@@ -32,6 +33,7 @@ func isSymbolExists(s string) bool {
 	return result
 }
 
+//isDuplicate is a utility function for checking duplicate words
 func isDuplicate(xs []string, s string) (bool, int) {
 	var result bool
 	var found int
